@@ -13,7 +13,7 @@ jobs:
       path: 01_Foundation                ## Path to terraform root module (Required)
       tf_version: latest                 ## Terraform version e.g: 1.1.0 Default=latest (Optional)
       az_resource_group: Terraform-GitHub-Backend      ## AZ backend - AZURE Resource Group hosting terraform backend storage acc (Required)
-      az_storage_acc: tfgithubbackendsa    ## AZ backend - AZURE terraform backend storage acc (Required)
+      az_storage_acc: tfgithubbackendsa6066   ## AZ backend - AZURE terraform backend storage acc (Required)
       az_container_name: gh-terraform-deployments ## AZ backend - AZURE storage container hosting state files (Required)
       tf_key: foundation-dev             ## AZ backend - Specifies name that will be given to terraform state file and plan artifact (Required)
       tf_vars_file: config-dev.tfvars    ## Terraform TFVARS (Required)
